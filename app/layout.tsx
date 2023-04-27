@@ -1,5 +1,4 @@
-import { title } from 'process'
-import Nav from './components/Nav'
+import Navbar from './components/nav/Navbar'
 import './globals.css'
 import { Inter } from 'next/font/google'
 
@@ -18,8 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <Nav 
-        />
+        <Navbar />
         {children}
         </body>
     </html>
