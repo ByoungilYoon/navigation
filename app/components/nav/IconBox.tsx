@@ -11,7 +11,7 @@ const IconBox: React.FC<IconBoxProps> = ({
 }) => {
   return (
     <div>
-      <Icon size={64} />
+      <Icon size={48} />
       <div className="font-medium text-sm">
         {label}
       </div>

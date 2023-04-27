@@ -13,6 +13,11 @@ type MegaMenuItem = {
   menuItems: MenuItem[];
 };
 
+export const topMenu = [
+  {title: "TopMenu1"},
+  {title: "TopMenu2"},
+]
+
 export const megaMenuData: MegaMenuItem[] = [
   {
     icon: CiAlarmOn,
@@ -71,6 +76,18 @@ export const megaMenuData: MegaMenuItem[] = [
   {
     icon: CiCloudOn,
     title: "메뉴5",
+    menuItems: [
+      {
+        title: "서브메뉴9",
+      },
+      {
+        title: "서브메뉴0",
+      },
+    ],
+  },
+  {
+    icon: CiCloudOn,
+    title: "메뉴6",
     menuItems: [
       {
         title: "서브메뉴9",
