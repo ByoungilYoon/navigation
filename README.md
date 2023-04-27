@@ -22,7 +22,7 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 
 ## Mega Menu
 
-Nextjs, Typescript를 활용한 navigation Mega menu를 구현한것!
+Nextjs, Typescript, tailwindcss를 활용한 navigation Mega menu를 구현한것!
 
 ## Deploy on Vercel
 
