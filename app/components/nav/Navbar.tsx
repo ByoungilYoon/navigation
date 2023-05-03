@@ -13,20 +13,21 @@ const MegaMenu = () => {
   return (
     <>
       <TopMenu />
-        
       <div className="w-full border-b-[1px]">
         <Container>
           <div 
             className="
-              flex 
+              flex
+              flex-row
               justify-between
               items-center
               w-full 
               mx-auto 
               relative
               transition
+              gap-8
             ">
-            <div className="flex items-center">LOGO</div>
+            <div className="flex items-center w-2/12">LOGO</div>
             {/* 메가메뉴 항목들을 순회하며 메뉴와 서브메뉴를 렌더링 */}
             {megaMenuData.map((megaMenuItem, index) => (
               <div 
@@ -38,7 +39,8 @@ const MegaMenu = () => {
                 {/* 메뉴 타이틀 */}
                 <div className="
                   cursor-pointer 
-                  font-semibold 
+                  font-light
+                  text-sm 
                   hover:border-b-blue-600 
                   hover:border-b-[2px] 
                   py-5 
@@ -84,7 +86,7 @@ const MegaMenu = () => {
                 )}
               </div>
             ))}
-            <div className="flex py-3 px-5 text-sm bg-neutral-200 rounded-full gap-3">
+            <div className="flex py-2 px-4 text-xs bg-neutral-200 rounded-full gap-2">
               <span>로그인</span>
               <span>|</span>
               <span>회원가입</span>
