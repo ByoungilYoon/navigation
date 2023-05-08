@@ -4,6 +4,7 @@ import React, { useState } from "react";
 import { megaMenuData, topMenu } from "./ItemList";
 import Container from "@/app/Container";
 import TopMenu from "./topmenu/TopMenu";
+import Router from "next/router";
 
 // 메가메뉴 컴포넌트
 const MegaMenu = () => {
